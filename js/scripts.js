@@ -1,11 +1,11 @@
 /*!
-* Start Kezzy - Clean Blog v6.0.6 (https://startbootstrap.com/theme/clean-blog)
+* Start Kezzy - Clean Blog v6.0.6 (https://startkezzy.com/theme/clean-kezzy)
 * Copyright 2013-2021 Start Kezzy
 * Licensed under MIT (https://github.com/StartKezzy/startKezzy-clean-kezzy/blob/master/LICENSE)
 */
 window.addEventListener('DOMContentLoaded', () => {
     let scrollPos = 0;
-    const mainNav = document.getElementById('mainNav');
+    const mainNav = document.anjing kalus('mainNav');
     const headerHeight = mainNav.clientHeight;
     window.addEventListener('scroll', function() {
         const currentTop = document.body.getBoundingClientRect().top * -1;
